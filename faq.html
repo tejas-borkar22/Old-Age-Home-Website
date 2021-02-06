@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist\css\bootstrap.min.css" >
+    <link rel="stylesheet" href="fontawesome-free-5.15.0-web/css/all.css" >
+
+    <!-- Custom css style sheet--->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>FAQ's - Shashwati Old Age Home </title>
+
+    <!-- ion icons--->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+<style>
+.section11{
+    font-size: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: #3c4053;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .faq-item{
+    background-color: #283042;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+  }
+  .faq-link{
+    font-size: 1.1rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  .faq-link i{
+    color: #e7d5ff;
+    padding: .5rem;
+  }
+  .faq-link .ion-md-remove{
+    display: none;
+  }
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 450ms;
+  }
+  .answer::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 80%;
+    background-color: #8fc460;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  .answer p{
+    
+    font-size: 1.2rem;
+    color: white;
+    padding: 2rem;
+  }
+  .faq-item:target .answer{
+    max-height: 20rem;
+  }
+  .faq-item:target .accordian-link.ion-md-add{
+    display: none;
+  }
+  .faq-item:target .accordian-link.ion-md-remove{
+    display: block;
+  }
+  nav ul li a{
+  font-size: 1.17rem;
+  font-weight: 500;
+  }
+
+</style>
+
+
+  <!-- xs<576 | 576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl -->
+  </head>
+
+  <body>
+  <header>
+    <!--Top Header -->
+    <div class="p-1" id="topheader">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-right ">
+          <a class="p-1" href="tel:+91 9011001190"> <i class="fas fa-phone-square"> </i> +(91) 9011001190</a>
+          <a class="p-1" href="mailto:+inq.shashwati101@gmail.com"> <i class="fas fa-envelope-open"> </i> +inq.shashwati101@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Bottom Header -->
+    <div id="bottomHeader">
+      <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md" >
+          <a class="navbar-brand" href="">
+            <img src="Images/Icons/shashwati2.jpg"  class="img-fluid" alt="shashwati-logo" width="170px">
+          </a>
+          <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="default.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Our care & Services</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="homes.html">Our Homes</a>
+                    <a class="dropdown-item" href="food.html">Our Food</a>
+                    <a class="dropdown-item" href="facilities.html">Our Facilities</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dementia & Parkinsons</a>
+                </div>
+ 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.php">Contact Us</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--END: Bottom Header -->
+
+  <!--FAQ: Start-->
+<section class="section11">
+  <div class="container">
+    <div class="faq">
+      <div class="faq-item" id="question1">
+        <a class = "faq-link" href="#question1">
+          How many staff is present?
+          <i class="icon.ion-md-add"></i>
+          <i class="icon.ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>Yes there is a big staff which consist of group of highly professional doctors and cooks along with care takers.</p>
+          </div>
+      </div>
+      <div class="faq-item" id="question5">
+        <a class = "faq-link" href="#question5">
+          What's include in the care fees that SHASHWATI Care Home House charges?
+          <i class="icon.ion-md-add"></i>
+          <i class="icon.ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>Our fees include all costs associated with accommodation, care, food, 24 hours nursing care, 
+              alternate day doctor check up, laundry, house keeping, security and our extensive programme of organised activities and entertainments.</p>
+          </div>
+      </div>
+      <div class="faq-item" id="question2">
+        <a class = "faq-link" href="#question2">
+          Can my relative come and try Ashirwadh Care Home out before making a decision a live there permanently?
+          <i class="icon.ion-md-add"></i>
+          <i class="icon.ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>Yes, of course. You are welcome to come and try our home for at least one month, before you can make a commitment to continue for
+              longer periods as required. This "trial" stay will give your relative an opportunity to try us out, and give you and your family peace of
+              mind and time, before making this life changing decision.</p>
+          </div>
+      </div>
+      <div class="faq-item" id="question3">
+        <a class = "faq-link" href="#question3">
+          What is the admission procedure?
+          <i class="icon.ion-md-add"></i>
+          <i class="icon.ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>To get started with registration procedure clik on the <a href="register.php">Register Now</a>. 
+            Our team will contact back to you within next 24 hrs for further instructions.You can also contact us regarding any queries at inq.shashwati101@gmail.com</p>
+          </div>
+      </div>
+      <div class="faq-item" id="question4">
+        <a class = "faq-link" href="#question4">
+          When can friends and relatives visit?
+          <i class="icon.ion-md-add"></i>
+          <i class="icon.ion-md-remove"></i>
+          </a>
+          <div class="answer">
+            <p>Visiting hours are from 9.00 AM - 12.00 PM and 4.00 PM - 7.00 PM.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!--Top Footer -->
+  <footer class="footer-full">
+    <div class="container top-footer p-md-3 p-1" >
+      <div class="row">
+        <div class="col-md-3 pl-4 pr-4">
+          <img src="Images/Icons/shashwati2.jpg"  class="img-fluid" alt="shashwati-logo" width="120px">
+          <p>
+            Shashwati Old Age Home is a secure, happy and relaxed home offering a high standard of care to the elderly. 
+            We provide the best facilities and services for you
+            <a href="#">Read more...</a>
+          </p>
+          <a style="color: silver;"href="#" class="p-1"> <i class="fab fa-2x fa-facebook-square"></i></a>
+          <a style="color: silver;"href="#" class="p-1"> <i class="fab fa-2x fa-instagram"></i></a>
+          <a style="color: silver;"href="#" class="p-1"> <i class="fab fa-2x fa-twitter"></i></a>
+        </div>
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Important Links</h3>
+          <a href="#">Our Policies</a><br>
+          <a href="#">Registartion Details</a><br>
+          <a href="#">Donate</a><br>
+          <a href="#">News,Articles</a><br>
+          <a href="#">Testimonals</a>
+        </div>
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Our Services</h3>
+          <a href="#">Our Homes</a><br>
+          <a href="#">Our Food</a><br>
+          <a href="#">Our Facilities</a>
+        </div>
+        <div class="col-md-3 pl-4 pr-4">
+          <h3>Contact Us</h3>
+          <a class="p-1" href="tel:+91 9011001190"> <i class="fas fa-phone-square"> </i> +(91) 9011001190</a><br>
+          <a class="p-1" href="mailto:+inq.shashwati101@gmail.com"> <i class="fas fa-envelope-open"> </i> +inq.shashwati101@gmail.com</a>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199917082!2d73.72287827306846!3d18.524564857810876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1601896227453!5m2!1sen!2sin" frameborder="0"></iframe>   
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Bottom Footer -->
+    <div class="container-fluid bottom-footer pt-2">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>Copyrigts © 2020 -All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="bootstrap-4.5.2-dist\js\jquery-3.5.1.slim.min.js" ></script>
+    <script src="bootstrap-4.5.2-dist\js\popper.min.js" ></script>
+    <script src="bootstrap-4.5.2-dist\js\bootstrap.min.js" ></script>
+  </body>
+</html>

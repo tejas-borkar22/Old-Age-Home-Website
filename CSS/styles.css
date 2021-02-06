@@ -1,0 +1,129 @@
+.myrows {
+    border: 3px solid rgba(93, 241, 93, 0.637);
+}
+.mycols {
+    border: 3px solid goldenrod;
+}
+.mycontainer{
+    border: 5px solid rosybrown ;
+    background: royalblue;
+}
+#topheader{
+    background-color: ghostwhite;
+    border : 1px solid silver;
+}
+#topheader a{
+    color: #2f3542;
+    font-weight:600;
+    font-size: 0.89rem;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+/*START -Footer*/
+.footer-full{
+    background-color: #2d3436;
+    /*position: absolute;
+    bottom: 0;
+    width:100%;*/
+}
+
+.top-footer p{
+    color:azure ;
+}
+
+.top-footer a{
+    color:azure ;
+    font-weight: 500;
+}
+
+.top-footer h3{
+    color:azure ;
+}
+
+.bottom-footer{
+    background-color: black;
+}
+
+.bottom-footer{
+    color: antiquewhite;
+}
+/*END -Footer*/
+
+
+/*HOME-PAGE: 1st  HERO SECTION  Start*/
+.top-sec{
+    color: mintcream;
+    background-color: #212529;
+    position: relative;
+    padding-left: 23px;
+}
+
+.top-sec div img{
+    padding-top: 5px;
+    width: 195px;
+}
+/*HOME-PAGE: 1st HERO SECTION  END*/
+
+
+
+/*HOME-PAGE: 2nd SECTION  START*/
+.fixed-img{
+    width: 195px;
+}
+
+.background{
+    background-color: white;
+}
+#mytext{
+    font-weight: 500;
+    font-family: Sitka Text;
+   
+}
+/*HOME-PAGE: 2nd SECTION  END*/
+
+
+
+/*HOME-PAGE: 3rd SECTION  START*/
+.support{
+    background-color: #455763;
+    color: white;
+}
+/*HOME-PAGE: 3rd SECTION  END*/
+
+
+
+.About{
+    background-color:rgb(16, 25, 39);
+    color: honeydew;
+}
+
+/* START : IMAGE CAROUSEL*/ 
+#myslideshow{
+    background-color:white;
+}
+/* END : IMAGE CAROUSEL*/
+
+
+/* START : TOP BUTTON*/
+#myBtn:hover{ 
+    background-color: ghostwhite;
+}
+/* END : TOP BUTTON*/
+
+/*_________________________________________________________________________*/
+
+
+
+/*-------------------START:CONTACT-US PAGE-------------------------------*/
+#bolder{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.paragraph p{
+    font-weight: 500;
+}
+/*-------------------END:CONTACT-US PAGE-------------------------------*/
+
