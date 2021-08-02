@@ -38,5 +38,23 @@ The software interface uses a XAMPP (Cross platform, Apache, MySQL, PHP and Perl
 - ∙	Front End of Website: HTML5, JavaScript, CSS3, Bootstrap 4.5
 
 
-##Screenshots
+## Screenshots
 
+Home Page
+
+<img src="Images/Photos/home.png" width=500px>
+<br>
+
+Contact Us Page
+
+<img src="Images/Photos/contact-us.png" width=500px>
+<br>
+
+Registration Page
+
+<img src="Images/Photos/registration.png" width=500px>
+<br>
+
+Login Page
+
+<img src="Images/Photos/login.png" width=500px>
