@@ -21,7 +21,7 @@ This project will be helpful for most of the old age homes which are located in 
 ## Introduction :
 
 - •	User can get various information about the old age home by exploring the website.
--• User can fill the primary registration form if he/she is interested
+- • User can fill the primary registration form if he/she is interested
  and start the admission process.
 - • Personal information of user is required for registration of the user 
 or his/her relatives.
@@ -36,3 +36,7 @@ The software interface uses a XAMPP (Cross platform, Apache, MySQL, PHP and Perl
 - ∙	Scripting Language: PHP, JavaScript
 - ∙	Web Browser: Mozilla Firefox, Chrome
 - ∙	Front End of Website: HTML5, JavaScript, CSS3, Bootstrap 4.5
+
+
+##Screenshots
+
